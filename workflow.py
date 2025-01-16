@@ -75,7 +75,7 @@ def get_animal_details(query):
     sql_query=response.choices[0].message.content
     #print(sql_query)
     try:
-        db_path='/home/soumyadweepm/Documents/soumyadweep/soumyadweep/RAG/arc-ai/valley_medical_pdx_bot/21687714.db'
+        db_path='llmapp.db'
         result = execute_sql_query(db_path, sql_query=str(sql_query))
         return str(result)
     except sqlite3.OperationalError as e:

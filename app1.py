@@ -5,7 +5,7 @@ import asyncio
 from functions import get_chat_history_as_json,get_chat_history_as_text
 
 from workflow import askWeb
-st.title("ARC AI : Text to Text and Image")
+st.title("Text to Text and Image Chatbot")
 
 
 # Streamed response emulator
