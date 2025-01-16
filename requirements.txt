@@ -1,6 +1,6 @@
+streamlit
 openai
 python-dotenv
 nest-asyncio
 tqdm
-sqlite3
 
