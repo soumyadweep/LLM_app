@@ -1,1 +1,6 @@
-streamlit,openai,sqlite3,json,time,sqlite3
+openai
+python-dotenv
+nest-asyncio
+tqdm
+sqlite3
+
